@@ -1,0 +1,14 @@
+{
+  "tracker": "botsort",
+  "clip_seconds": 32.8,
+  "fps": 29.97,
+  "vehicles_with_speed": 54,
+  "vehicles_counted_at_line": 54,
+  "lane_changes": 0,
+  "speed_kmh": {
+    "mean": 83.7,
+    "median": 83.3,
+    "p85": 93.0
+  },
+  "median_speed_uncertainty_kmh": 0.2
+}

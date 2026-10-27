@@ -1,0 +1,6 @@
+tracker,true lane changes,detected,correct,false
+Centroid (classic OpenCV),9,8,8,0
+"ByteTrack, smoothed boxes",9,9,9,0
+ByteTrack,9,9,9,0
+"BoT-SORT, smoothed boxes",9,9,9,0
+BoT-SORT,9,9,9,0

@@ -1,0 +1,101 @@
+{
+  "trackers": [
+    {
+      "tracker": "Centroid (classic OpenCV)",
+      "MOTA": 0.951,
+      "IDF1": 0.866,
+      "ID switches": 34,
+      "recall": 0.98,
+      "precision": 0.985,
+      "false positives": 36,
+      "mostly tracked": "37/38",
+      "vehicles counted": "41 (true 38)",
+      "vehicles with a speed": "38/38",
+      "speed MAE (km/h)": 0.18,
+      "speed median abs error (km/h)": 0.12,
+      "speed bias (km/h)": -0.09,
+      "within \u00b15 km/h": "100%",
+      "lane correct": "95%"
+    },
+    {
+      "tracker": "ByteTrack, smoothed boxes",
+      "MOTA": 0.821,
+      "IDF1": 0.908,
+      "ID switches": 3,
+      "recall": 0.893,
+      "precision": 0.927,
+      "false positives": 169,
+      "mostly tracked": "36/38",
+      "vehicles counted": "38 (true 38)",
+      "vehicles with a speed": "38/38",
+      "speed MAE (km/h)": 0.98,
+      "speed median abs error (km/h)": 0.98,
+      "speed bias (km/h)": 0.98,
+      "within \u00b15 km/h": "100%",
+      "lane correct": "97%"
+    },
+    {
+      "tracker": "ByteTrack",
+      "MOTA": 0.947,
+      "IDF1": 0.971,
+      "ID switches": 3,
+      "recall": 0.957,
+      "precision": 0.991,
+      "false positives": 20,
+      "mostly tracked": "37/38",
+      "vehicles counted": "38 (true 38)",
+      "vehicles with a speed": "38/38",
+      "speed MAE (km/h)": 0.13,
+      "speed median abs error (km/h)": 0.11,
+      "speed bias (km/h)": -0.08,
+      "within \u00b15 km/h": "100%",
+      "lane correct": "97%"
+    },
+    {
+      "tracker": "BoT-SORT, smoothed boxes",
+      "MOTA": 0.952,
+      "IDF1": 0.975,
+      "ID switches": 1,
+      "recall": 0.958,
+      "precision": 0.994,
+      "false positives": 14,
+      "mostly tracked": "37/38",
+      "vehicles counted": "38 (true 38)",
+      "vehicles with a speed": "38/38",
+      "speed MAE (km/h)": 0.97,
+      "speed median abs error (km/h)": 1.02,
+      "speed bias (km/h)": 0.97,
+      "within \u00b15 km/h": "100%",
+      "lane correct": "97%"
+    },
+    {
+      "tracker": "BoT-SORT",
+      "MOTA": 0.949,
+      "IDF1": 0.974,
+      "ID switches": 1,
+      "recall": 0.958,
+      "precision": 0.991,
+      "false positives": 20,
+      "mostly tracked": "37/38",
+      "vehicles counted": "38 (true 38)",
+      "vehicles with a speed": "38/38",
+      "speed MAE (km/h)": 0.14,
+      "speed median abs error (km/h)": 0.11,
+      "speed bias (km/h)": -0.08,
+      "within \u00b15 km/h": "100%",
+      "lane correct": "97%"
+    }
+  ],
+  "detection_recall_by_distance": {
+    "-10 to 0 m": 0.925,
+    "0 to 10 m": 1.0,
+    "10 to 20 m": 1.0,
+    "20 to 30 m": 1.0,
+    "30 to 40 m": 1.0,
+    "40 to 50 m": 0.998
+  },
+  "truth": {
+    "vehicles": 38,
+    "frames": 750
+  }
+}

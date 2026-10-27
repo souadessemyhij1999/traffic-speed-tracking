@@ -1,0 +1,6 @@
+tracker,MOTA,IDF1,ID switches,recall,precision,false positives,mostly tracked,vehicles counted,vehicles with a speed,speed MAE (km/h),speed median abs error (km/h),speed bias (km/h),within ±5 km/h,lane correct
+Centroid (classic OpenCV),0.951,0.866,34,0.98,0.985,36,37/38,41 (true 38),38/38,0.18,0.12,-0.09,100%,95%
+"ByteTrack, smoothed boxes",0.821,0.908,3,0.893,0.927,169,36/38,38 (true 38),38/38,0.98,0.98,0.98,100%,97%
+ByteTrack,0.947,0.971,3,0.957,0.991,20,37/38,38 (true 38),38/38,0.13,0.11,-0.08,100%,97%
+"BoT-SORT, smoothed boxes",0.952,0.975,1,0.958,0.994,14,37/38,38 (true 38),38/38,0.97,1.02,0.97,100%,97%
+BoT-SORT,0.949,0.974,1,0.958,0.991,20,37/38,38 (true 38),38/38,0.14,0.11,-0.08,100%,97%

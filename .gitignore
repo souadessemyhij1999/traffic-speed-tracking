@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Video and generated files (src/data.py downloads the clip; scripts regenerate the rest)
+data/
+runs/
+/*.pt
+*.mp4
+results/*/detections.csv
+results/*/tracks*.csv
+
+# OS
+.DS_Store
+Thumbs.db
